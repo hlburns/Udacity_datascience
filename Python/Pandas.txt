@@ -1,0 +1,7 @@
+Pandas
+
+Data Frames, Str, int, floats, booleans
+
+Array of different data types
+
+Creat a dictionary 
