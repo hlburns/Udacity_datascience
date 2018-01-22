@@ -1,0 +1,21 @@
+# Non normal
+#
+# Shapiro-Wilk Test
+# w,p = scipy.stats.shapio(data)
+# w test stat
+# p = pval
+# is the data from normal distribution 
+#
+# If large enough sample size can assume normal
+#
+# Otherwise use Non-parametric tests:
+# no assumptions about distribution
+#
+# Mann-Whitney U test (tests null that 2 pops are the same)
+#
+# u, p = scipy.stats.manwhitneyu(x,y)
+# u = test stat
+# p = one side p val
+# shows 2 different populations but no other info
+#
+#
