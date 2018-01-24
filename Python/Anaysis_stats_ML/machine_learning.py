@@ -49,9 +49,15 @@ def gradient_descent(features, values, theta, alpha, num_iterations):
     # See the Instructor notes for hints. 
     
     cost_history = []
-
     ###########################
     ### YOUR CODE GOES HERE ###
     ###########################
+    theta_j = theta 
+    Yi = numpy.dot(features[:,0],values)
+    m = len(values)
+    for i in range(num_iterations):
+     	theta_j = theta_j + (alpha/m) * (numpy.dot(features[:,0],(Yi - values))) 
+    	cost = compute_cost(features,values,theta_j)
+    	cost_history.append(cost)
 
     return theta, pandas.Series(cost_history) # leave this line for the grader
