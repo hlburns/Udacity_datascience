@@ -1,0 +1,26 @@
+# Data Visulisation #
+#
+# Clarity, precision, efficient
+# Comunicate complex ideas - showing trends etc
+#
+# https://en.wikipedia.org/wiki/Charles_Joseph_Minard#mediaviewer/File:Minard.png
+#
+# Napoleons march on russia showing the devastating loss of live 
+#
+# Good data visulisation includes:
+#
+# Visual cues, co ordinate systems, scale, contex
+#
+# Visual encoding
+# 
+# Posistion, length, angle (hard to differentiate small differences)
+# Direction (similar issue to angles)
+# Shape (establishing different populations, variable)
+# Area (size)
+# Colour: Hue (different thigns) Saturation: (value) OR combination (pos neg colours)
+#         Never use more than 12 colours  
+# Accuracy ranges: from position, angle, area, staturation (highest to lowest)
+#
+# Graphical perception and methods 1980s AT&T labs
+# http://courses.ischool.berkeley.edu/i247/f05/readings/Cleveland_GraphicalPerception_Science85.pdf
+# Because of human perception - why phython has perceptually uniform colour bars
