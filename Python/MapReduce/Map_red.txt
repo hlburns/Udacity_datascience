@@ -1,0 +1,12 @@
+# Map Reduce
+#
+# Simple jobs requires a lot of effort via map reduce
+# Complex jobs become very complext
+#
+# An implimentation of map reduce is HADOOP
+# HIVE (hive query language) and Pig (pig latin language)
+# 
+# Work on top of HADOOP specify an abstract calculations
+# then hive or pig runs in the most appropriate way
+# 
+# need to do quiz 11 and Problem set 5
